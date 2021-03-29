@@ -12,6 +12,7 @@
 
         <h2>calcola il prezzo del tuo biglietto</h2>
 
+        <!--ticket-generator-->
         <div class="ticket-generator">
             <!--sezione nome cognome-->
             <div class="ticket-generator-section">
@@ -36,11 +37,47 @@
             </div>
 
             <div class="buttons-section">
-                <button class="btn-genera"></button>
-                <button class="btn-annulla"></button>
+                <button type="button" id="btn-genera"><strong>Genera</strong></button>
+                <button type="button" id="btn-annulla"><strong>Annulla</strong></button>
             </div>
 
         </div>
+        <!--fine ticket-generator-->
+
+        <h2>Il tuo biglietto</h2>
+
+        <!--ticket-result-->
+        <div class="ticket-result">
+
+            <h3>dettaglio passeggeri</h3>
+
+            <div class="ticket-result-box">
+                <!--result-nome passeggero-->
+                <div class="ticket-result-section">Nome Passeggero <br>
+                    <span id="name-result"></span>
+                </div>
+                <!--result-offerta-->
+                <div class="ticket-result-section">Offerta <br>
+                    <span id="offer-result"></span>
+                </div>
+                <!--result-numero carrozza-->
+                <div class="ticket-result-section">Carrozza <br>
+                    <span id="train-result"></span>
+                </div>
+                <!--result-codice cp-->
+                <div class="ticket-result-section">Codice CP <br>
+                    <span id="code cp-result"></span>
+                </div>
+                <!--result-prezzo biglietto-->
+                <div class="ticket-result-section">Costo Biglietto <br>
+                    <span id="price-result"></span>
+                </div>
+
+            </div>
+
+            
+        </div>
+
     </div>
 
 

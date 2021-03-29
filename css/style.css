@@ -18,10 +18,12 @@ h2{
     padding: 20px;
 }
 
+/*ticket generator*/
 .ticket-generator{
     background-color: white;
     width: 80%;
     margin: auto;
+    border-radius: 10px;
 }
 
 .ticket-generator-section{
@@ -29,3 +31,39 @@ h2{
     padding: 20px 30px 20px 30px;
     display: inline-block;
 }
+
+.buttons-section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.buttons-section button{
+    padding: 6px;
+    color: #c40034;
+    font-size: 15px;
+    margin: 0 10px 0 10px;
+}
+
+/*fine ticket generator*/
+
+/*ticket result*/
+.ticket-result{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.ticket-result h3{
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+.ticket-result-section{
+    display: inline-block;
+    padding: 20px 30px 20px 30px;
+}
+
+
+/*fine ticket result*/
